@@ -4,20 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tu Tienda de Lencería</title>
+  <title>Astrid Lenceria</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <style>
     body {
-      background-color: #E1E1E1; /* Fondo gris perla */
-      font-family: 'Arial', sans-serif; /* Estilo de fuente */
-      color: #333; /* Color del texto principal */
+      background-color: #f3f3f3; /* Fondo gris claro */
+      font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+      color: #555; /* Color del texto principal */
       margin: 0;
       padding: 0;
+      transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
     }
 
     header {
-      background-color: #F6B3C1; /* Fondo rosa claro para el encabezado */
+      background-color: #e74c3c; /* Fondo rojo oscuro para el encabezado */
       padding: 20px; /* Espaciado interno para el encabezado */
       text-align: center; /* Centrar el contenido del encabezado */
+    }
+
+    h1 {
+      color: #fff; /* Texto blanco para el encabezado principal */
+      margin: 0;
+      font-size: 2em;
     }
 
     .container {
@@ -27,45 +35,55 @@
     }
 
     .producto {
-      background-color: #FFFFFF; /* Fondo blanco para los productos */
-      border: 1px solid #E1E1E1; /* Borde ligero alrededor de los productos */
+      background-color: #fff; /* Fondo blanco para los productos */
+      border: 1px solid #ddd; /* Borde ligero alrededor de los productos */
       padding: 20px; /* Espaciado interno para los productos */
       margin-bottom: 20px; /* Margen inferior entre los productos */
     }
 
     .boton {
-      background-color: #D0848D; /* Fondo rosa oscuro para los botones */
-      color: #FFFFFF; /* Texto blanco para los botones */
+      background-color: #e74c3c; /* Fondo rojo oscuro para los botones */
+      color: #fff; /* Texto blanco para los botones */
       padding: 10px 20px; /* Espaciado interno para los botones */
       text-decoration: none; /* Eliminar el subrayado de los botones */
       border-radius: 5px; /* Bordes redondeados para los botones */
+      display: inline-block;
+      transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves para los cambios de color */
+    }
+
+    .boton:hover {
+      background-color: #c0392b; /* Cambio de color al pasar el ratón */
     }
 
     footer {
-      background-color: #F6B3C1; /* Fondo rosa claro para el pie de página */
+      background-color: #e74c3c; /* Fondo rojo oscuro para el pie de página */
       padding: 20px; /* Espaciado interno para el pie de página */
       text-align: center; /* Centrar el contenido del pie de página */
+      color: #fff; /* Texto blanco para el pie de página */
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Tu Tienda de Lencería</h1>
+    <h1>Astrid Lenceria</h1>
     <!-- Otros elementos del encabezado, como el menú de navegación, pueden ir aquí -->
   </header>
 
   <div class="container">
     <!-- Contenido principal de la página, como productos y ofertas -->
     <div class="producto">
-      <!-- Detalles de un producto -->
+      <img src="https://via.placeholder.com/300" alt="Producto 1">
+      <h2>Conjunto de Encaje Elegante</h2>
+      <p>Descubre nuestra colección de conjuntos de encaje diseñados para realzar tu belleza y comodidad.</p>
+      <p class="boton">Ver Detalles</p>
     </div>
 
     <a href="#" class="boton">Ver Colección Completa</a>
   </div>
 
   <footer>
-    <p>&copy; 2024 Tu Tienda de Lencería</p>
+    <p>&copy; 2024 Astrid Lenceria</p>
     <!-- Otros elementos del pie de página, como enlaces adicionales, pueden ir aquí -->
   </footer>
 </body>
